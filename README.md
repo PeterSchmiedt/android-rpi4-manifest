@@ -35,6 +35,7 @@ Partitions of the card should be set-up like followings.
 Set volume label of /data partition as userdata
   : use -L option for mkfs.ext4
 
+  https://github.com/csimmonds/a4rpi-scripts/blob/pie/write-sdcard-rpi3.sh
 
 
 # Linux Kernel
@@ -46,7 +47,7 @@ Set volume label of /data partition as userdata
 
 ## Build
 
-    $ build/build.sh
+    $ ./build/build.sh
 
 Output files are under out/arpi-5.15/dist/
   - Image.gz
