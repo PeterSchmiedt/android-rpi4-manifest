@@ -1,6 +1,6 @@
 # Android default manifest for RaspberryPi 4
 
-# Setup
+## Setup
 
 Follow the official guide https://source.android.com/docs/setup/start/initializing
 
@@ -14,7 +14,7 @@ Clone existing manifest to android source repo.
     $ git clone https://github.com/PeterSchmiedt/android-rpi4-manifest.git .repo/local_manifests
     $ repo sync -j10
 
-# Patch
+## Patch
 
 https://github.com/android-rpi/device_arpi_rpi4/wiki/arpi-12-:-framework-patch
 
