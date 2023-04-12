@@ -12,5 +12,6 @@ Follow the official guide https://source.android.com/docs/setup/start/initializi
     $ repo init -u https://android.googlesource.com/platform/manifest -b android-13.0.0_r41
     $ curl --create-dirs -L -o .repo/local_manifests/manifest_brcm_rpi4.xml -O -L https://raw.githubusercontent.com/PeterSchmiedt/android-rpi4-manifest/main/manifest_bcrm_rpi4.xml
 
+### Sync the repo
 
     $ sync repo -j10
