@@ -14,12 +14,12 @@ Follow the official guide https://source.android.com/docs/setup/start/initializi
 
 Sync the repo
 
-    $ repo sync -j10
+    $ repo sync -j$(nproc)
 
 ## Compile
 
     $ . build/envsetup.sh
-    $ lunch aosp_rpi4-userdebug
+    $ lunch aosp_rpi4-eng
     $ make bootimage systemimage vendorimage -j$(nproc)
 
 ## Make flashable image
