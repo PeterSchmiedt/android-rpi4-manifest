@@ -4,10 +4,13 @@
 
 Follow the official guide https://source.android.com/docs/setup/start/initializing
 
-  $ sudo apt-get install bc coreutils dosfstools e2fsprogs fdisk kpartx mtools ninja-build pkg-config python3-pip
-  $ sudo pip3 install meson mako jinja2 ply pyyaml
+    $ sudo apt-get install bc coreutils dosfstools e2fsprogs fdisk kpartx mtools ninja-build pkg-config python3-pip
+    $ sudo pip3 install meson mako jinja2 ply pyyaml
 
 ## Setup Android repo
 
-  $ repo init -u https://android.googlesource.com/platform/manifest -b android-13.0.0_r41
-  $ curl --create-dirs -L -o .repo/local_manifests/manifest_brcm_rpi4.xml -O -L https://raw.githubusercontent.com/raspberry-vanilla/android_local_manifest/android-13.0/manifest_brcm_rpi4.xml
+    $ repo init -u https://android.googlesource.com/platform/manifest -b android-13.0.0_r41
+    $ curl --create-dirs -L -o .repo/local_manifests/manifest_brcm_rpi4.xml -O -L https://raw.githubusercontent.com/PeterSchmiedt/android-rpi4-manifest/main/manifest_bcrm_rpi4.xml
+
+
+    $ sync repo -j10
