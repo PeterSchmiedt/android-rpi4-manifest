@@ -6,6 +6,7 @@ Follow the official guide https://source.android.com/docs/setup/start/initializi
 
     $ sudo apt install bc coreutils dosfstools e2fsprogs fdisk kpartx mtools ninja-build pkg-config python3-pip
     $ sudo pip3 install meson mako jinja2 ply pyyaml
+    $ sudo apt-get install libncurses5
 
 ## Setup Android repo
 
